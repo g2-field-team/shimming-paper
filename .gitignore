@@ -1,0 +1,7 @@
+doc/*
+
+*.aux
+*.log
+*.spl
+*.blg
+*.bbl

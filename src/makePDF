@@ -1,0 +1,6 @@
+#!/bin/bash
+
+pdflatex shimming-paper
+bibtex shimming-paper
+pdflatex shimming-paper
+pdflatex shimming-paper
