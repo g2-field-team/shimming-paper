@@ -62,3 +62,5 @@ Here are some links to E821 BNL notes related to the field team. This is a selec
 
 #### Inflector Field
 - [Model of Inflector Fringe Field , Morse, Note 325](http://www.g-2.bnl.gov/private/g2notes/pdf/325.pdf)
+- [Inflector field effect as seen by 821 trolley](https://muon.npl.washington.edu/elog/g2/Trolley+system/68)
+
