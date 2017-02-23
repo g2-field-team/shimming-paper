@@ -14,6 +14,7 @@
 
 ### Multipole Expansion
 - [toroidal harmonic comparison](http://gm2-docdb.fnal.gov:8080/cgi-bin/ShowDocument?docid=3810)
+- [2D Maxwell multipole expansion](http://gm2-docdb.fnal.gov:8080/cgi-bin/ShowDocument?docid=3599)
 
 ## Models
 ### Shims
