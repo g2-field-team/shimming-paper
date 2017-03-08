@@ -1,7 +1,4 @@
-# Paper Resources
-
-## Common Links
-[Outline Document](https://docs.google.com/spreadsheets/d/1tcBuT7S9s6ryzLnRyj5q81tYOcKzDCbBkIkM4ZFofyo/edit#gid=0)
+# References
 
 ## Hardware
 - [Shimming Cart elog](https://muon.npl.washington.edu/elog/g2/General+Field+Team/144)
