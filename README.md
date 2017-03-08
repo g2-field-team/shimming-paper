@@ -6,5 +6,5 @@ Repo for centralized contributing and editing of the g-2 Field Shimming paper.
 
 ## Links
 - [Outline Document](https://docs.google.com/spreadsheets/d/1tcBuT7S9s6ryzLnRyj5q81tYOcKzDCbBkIkM4ZFofyo/edit#gid=0)
-- [Resources]((https://github.com/mwsmith2/shimming-paper/wiki/Resources)
+- [Resources](https://github.com/mwsmith2/shimming-paper/wiki/Resources)
 - [Literature Search](https://github.com/mwsmith2/shimming-paper/wiki/Literature-Search)
