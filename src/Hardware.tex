@@ -1,7 +1,69 @@
+%=============================================================================== 
 \section{Hardware}
 \label{sec:Hardware}
+%=============================================================================== 
+
+%=============================================================================== 
 \subsection{Shimming Kit}
+%=============================================================================== 
+
+%=============================================================================== 
 \subsection{Instrumentation}
-Commercial Tools\\
-Tilt Sensors \\
-Shimming Cart\\
+%=============================================================================== 
+
+%=============================================================================== 
+\subsubsection{Commercial Tools}
+%=============================================================================== 
+
+%=============================================================================== 
+\subsubsection{Shimming Cart}
+%=============================================================================== 
+
+%=============================================================================== 
+\subsubsection{Tilt Sensors}
+%=============================================================================== 
+
+\begin{itemize}
+    \item Hardware
+        \begin{itemize}
+            \item Narrow range electrolyic tilt sensors from Frederick's company (Part \#0719-3701-99)
+            \item 16-bit signal conditioning board (Part \#1-6200-012)
+            \item Mounted on a three point contact system to measure radial and azimuthal tilt. Include picture
+        \end{itemize}
+    \item Calibration
+        \begin{itemize}
+            \item Inserted shims of varying thickness under 1 point of contact
+            \item Recorded tilt (in bits) from both tilt sensors for each configuration
+            \item Fit recorded tilt vs. expected tilt (in radians)
+            \item result: 1 bit is 1.3 urad
+        \end{itemize}
+    \item Uses
+        \begin{itemize}
+            \item Large input to pole foot adjustments
+            \item Measured tilts across pole face. Used to adjust relative inner-outer radial tilt, minimize quadrupole moment
+            \item Measured tilts on both sides of a pole-pole boundary, as well as across boundary, to calculate pole step
+            \item Mounted on Hall probe platform to monitor tilt and ensure repeatable positioning after a rotations
+        \end{itemize}
+\end{itemize}
+
+%=============================================================================== 
+\subsubsection{Hall Probes}
+%=============================================================================== 
+
+\begin{itemize}
+    \item Hardware and Purpose
+        \begin{itemize}
+            \item NMR probes measure field magnitude, not field direction. Can't be used to measure radial/longitudinal field components
+            \item Hall probes are sensitive to both field magnitude and direction
+            \item Used ASensor HE-244T Hall probes, which have a reported ultra low planar Hall coefficient
+        \end{itemize}
+    \item Hall Probe Measurements
+        \begin{itemize}
+            \item Hall probe measurements get a contribution from normal Hall effect, planar Hall effect, offset voltage (include equation)
+            \item By rotating Hall probe about normal axis, were able to measure planar Hall coefficient. Found that it was negligibly small and could be safely ignored 
+            \item Offset voltage minimized by taking difference of 2 measurements with Hall probe rotated by 180 degrees about vertical axis
+            \item Built platform that allowed for 180/90 degree rotation for radial and longitudinal field measurements
+            \item Platform tilt could be adjusted at urad level (monitored by tilt sensors)
+            \item Platform height and radial position can be adjusted to study fields all over muon storage region
+        \end{itemize}
+\end{itemize}

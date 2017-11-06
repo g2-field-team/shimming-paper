@@ -16,6 +16,22 @@
 %===============================================================================
 
 %===============================================================================
+\subsubsection{Top Hats}
+%===============================================================================
+
+%===============================================================================                                                   
+\subsubsection{Wedges}
+%=============================================================================== 
+
+%===============================================================================                                                  
+\subsubsection{Edge Shims and Edgelet Laminations}
+%=============================================================================== 
+
+%===============================================================================                                                   
+\subsubsection{Pole Moves}
+%=============================================================================== 
+
+%===============================================================================
 \subsection{Laminations}
 %===============================================================================
 
@@ -75,6 +91,35 @@
 %===============================================================================
 \subsection{Surface Coils}
 %===============================================================================
+\begin{itemize}
+  \item Hardware and Motivation
+      \begin{itemize}
+          \item 100 concentric coils above and below vacuum chambers
+          \item Current range $\pm$2.5A 
+          \item Current configurations used to create opposing higher order average multipole moments
+          \item Current configuration used to cancel average radial field
+          \item Goal: All multipoles moments less than 1 ppm, variation across storage region less than 1 ppm
+      \end{itemize}
+  \item Radial Dependence of Currents and Calibration
+      \begin{itemize}
+          \item In free space, curl of $\vec{B}$ is 0, so magnetic field can be represented as a gradient
+          \item Start with general expression for gradient and calculate x and y components of B field
+          \item Assume that poles have large permeability, get boundary condition on normal $\vec{H}$ field
+          \item Use boundary condition to derive radial dependence of current density that creates each multipole
+          \item Table of current configurations for each multipoles
+          \item Tested each configuration with max current 2A. Calculated effect of each configuration on all multipoles
+          \item All verified linearity when changing max current of each configuration
+      \end{itemize}
+  \item Optimization and Results
+      \begin{itemize}
+          \item Optimize the currents by minimizing $|Ax-y|$
+          \item A is stack of multipole effects of each current configuration
+          \item x is the maximum current associated with each configuration
+          \item y is the multipoles to minimize
+          \item Show plots with results
+      \end{itemize}
+\end{itemize}
+
 
 %===============================================================================
 \subsection{Optimization}
