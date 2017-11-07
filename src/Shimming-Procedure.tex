@@ -15,21 +15,102 @@
 \subsection{Knobs}
 %===============================================================================
 
+\begin{itemize}
+  \item Overview of Shimming Knobs
+    \begin{itemize}
+      \item Pole Adjustments - normalize steel planes      
+      \item Top Hats - wide angle, dipole
+      \item Wedge Shims - medium angle, dipole/quadrupole
+      \item Edge(let) Shims - wide angle, multipoles
+      \item Laminations - new design, small angle, low multipoles
+    \end{itemize}
+  \item Calibration values in summary table
+  \item Illustrate basic model for a shim
+\end{itemize}
+
+%===============================================================================           
+\subsubsection{Pole Moves}
+%=============================================================================== 
+
+\begin{itemize}
+  \item Hardware description
+    \begin{itemize}
+      \item Steel composition and uniformity specification
+      \item Stabilizing ``feet''
+      \item Create two annuli forming a highly uniform gap
+    \end{itemize}
+  \item Effects on B-field
+    \begin{itemize}
+      \item Gap determines first order field strength
+      \item Gradients in gap cause multipoles
+    \end{itemize}
+  \item Adjustment procedure
+    \begin{itemize}
+      \item Remove pole plugs
+      \item Techs use crane to lower onto blocks
+      \item Adjust stack of shims under pole feet to 12um
+    \end{itemize}
+  \item Implentation
+    \begin{itemize}
+      \item Gap improvements
+      \item Tilt improvements
+      \item Field improvements
+    \end{itemize}
+\end{itemize}
+
 %===============================================================================
 \subsubsection{Top Hats}
 %===============================================================================
 
-%===============================================================================                                                   
+\begin{itemize}
+  \item Hardware description - plates of iron on top and bottom of ring
+  \item Effects on B-field
+    \begin{itemize}
+      \item Change inductance of C-magnet locally in azimuth
+      \item No effects on higher order multipoles, only dipole
+    \end{itemize}
+  \item Adjustment procedure
+    \begin{itemize}
+      \item Techs loose plates
+      \item Adjust stack of shims under top hats to 10s of mils
+    \end{itemize}
+  \item Field improvements
+\end{itemize}
+
+%===============================================================================
 \subsubsection{Wedges}
 %=============================================================================== 
 
-%===============================================================================                                                  
+%===============================================================================
 \subsubsection{Edge Shims and Edgelet Laminations}
 %=============================================================================== 
 
-%===============================================================================                                                   
-\subsubsection{Pole Moves}
-%=============================================================================== 
+\begin{itemize}
+  \item Hardware description
+    \begin{itemize}
+      \item rails of iron at edges of uniform pole surface
+      \item located at lower, upper, lower and outer positions
+      \item edgelet cut size from 10 degrees to 1 degree
+    \end{itemize}
+  \item Effects on B-field
+    \begin{itemize}
+      \item Adding/removing steel influences field
+      \item Multiple positions gives handle on multipoles
+      \item Edgelets give even more localized handle on multipoles
+    \end{itemize}
+  \item Adjustment procedure
+    \begin{itemize}
+      \item Order over-sized
+      \item Predict required change and grind down
+      \item Repeat as necessary
+    \end{itemize}
+  \item Implementations
+    \begin{itemize}
+      \item Edge shim test - deemed unnecessary in the end
+      \item Edgelet test - less powerful knob than laminations
+    \end{itemize}
+\end{itemize}
+
 
 %===============================================================================
 \subsection{Laminations}
@@ -125,4 +206,17 @@
 \subsection{Optimization}
 %===============================================================================
 
-
+\begin{itemize}
+  \item Mathematial model
+    \begin{itemize}
+      \item Build up overall problem by add basic models
+      \item Add in weights to account for different multipoles 
+    \end{itemize}
+  \item Minimization routine
+    \begin{itemize}
+      \item Iterative least squares routine
+      \item Build in switches to turn off certain knobs 
+      \item Model validation
+      \item Model caveats
+    \end{itemize}
+\end{itemize}
